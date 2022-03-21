@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome \n Back"
+        android:textSize="60dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="50dp">
+
+    </TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/email"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/text_style"
+        ></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_marginTop="30dp"
+        android:id="@+id/password"
+        android:background="@drawable/text_style"
+        ></EditText>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/login"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/teal_200"
+        android:layout_marginTop="30dp"
+        android:onClick="login"
+        app:cornerRadius="20dp"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:text="Login"
+        />
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/logincreate"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:onClick="CreateAccount"
+        android:backgroundTint="@color/purple_200"
+        android:layout_marginTop="30dp"
+        app:cornerRadius="20dp"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:text="Create an Account"
+        />
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

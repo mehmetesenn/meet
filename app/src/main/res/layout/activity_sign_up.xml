@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".SignUpActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textSize="60dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp">
+    </TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Name"
+        android:id="@+id/signupname"
+        android:inputType="textPersonName"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/text_style"
+
+
+
+        ></EditText>
+
+    <EditText
+        android:id="@+id/emailsignup"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/text_style"/>
+
+    <EditText
+        android:id="@+id/passwordsignup"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/text_style"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/signupcreate"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/purple_200"
+        android:layout_marginTop="30dp"
+        app:cornerRadius="20dp"
+        android:onClick="Account"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:text="Create an Account"
+        />
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/alreadyAccount"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/teal_200"
+        android:layout_marginTop="30dp"
+        app:cornerRadius="20dp"
+        android:textSize="16sp"
+        android:onClick="AlreadyAccount"
+        android:textAllCaps="false"
+        android:text="Already Have an Account"
+        />
+
+
+
+
+
+</LinearLayout>

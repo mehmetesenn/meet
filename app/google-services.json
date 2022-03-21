@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "830655789645",
+    "project_id": "videomeet-41cb4",
+    "storage_bucket": "videomeet-41cb4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:830655789645:android:8669f5377902676c0f7a04",
+        "android_client_info": {
+          "package_name": "com.mehmetesen.meet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "830655789645-84rlb9u6i8obh388k7s22tuqlkjerkb7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgLIC8j7H6wQhSOU3qVdF14E8erUg47uY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "830655789645-84rlb9u6i8obh388k7s22tuqlkjerkb7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
